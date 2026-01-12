@@ -28,7 +28,6 @@
             min-height: 100vh;
         }
     </style>
-    <!-- importmap 내의 잘못된 버전(^19.2.3 등)을 제거하고 표준 React 19.0.0으로 통일합니다. -->
     <script type="importmap">
 {
   "imports": {
@@ -44,7 +43,7 @@
 </head>
 <body class="bg-slate-50 text-slate-900 selection:bg-emerald-100 selection:text-emerald-900">
     <div id="root"></div>
-    <!-- esm.sh/run은 자동으로 index.tsx를 찾아 브라우저에서 실행 가능한 JS로 변환합니다. -->
+    <!-- esm.sh/run 로더는 index.tsx를 자동으로 찾아 컴파일 및 실행합니다. -->
     <script type="module" src="https://esm.sh/run"></script>
 </body>
 </html>
