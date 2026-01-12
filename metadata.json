@@ -1,0 +1,7 @@
+{
+  "name": "온결행정사사무소 (Ongyeol Administrative Office)",
+  "description": "Professional administrative legal services in Busan Sasang-gu, specializing in administrative appeals, licensing, corporate setup, and immigration matters. Features an AI-powered legal assistant.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
