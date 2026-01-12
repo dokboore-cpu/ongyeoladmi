@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="ko">
 <head>
@@ -25,7 +26,7 @@
 </head>
 <body class="bg-slate-50 text-slate-900 selection:bg-emerald-100 selection:text-emerald-900">
     <div id="root"></div>
-    <!-- Vite는 아래의 .tsx 경로를 인식하여 빌드 시 자바스크립트로 변환합니다 -->
-    <script type="module" src="/index.tsx"></script>
+    <!-- Vite 빌드 시 상대 경로 인식을 위해 / 제거 -->
+    <script type="module" src="index.tsx"></script>
 </body>
 </html>
