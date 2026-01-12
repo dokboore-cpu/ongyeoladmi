@@ -24,21 +24,26 @@
         .animate-float {
             animation: float 4s ease-in-out infinite;
         }
+        /* 배포 시 빈 화면 방지를 위한 기본 높이 설정 */
+        #root {
+            min-height: 100vh;
+        }
     </style>
 <script type="importmap">
 {
   "imports": {
     "react": "https://esm.sh/react@^19.2.3",
+    "react-dom": "https://esm.sh/react-dom@^19.2.3",
+    "react-dom/client": "https://esm.sh/react-dom@^19.2.3/client",
+    "@google/genai": "https://esm.sh/@google/genai@^1.35.0",
     "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
-    "react/": "https://esm.sh/react@^19.2.3/",
-    "@google/genai": "https://esm.sh/@google/genai@^1.35.0"
+    "react/": "https://esm.sh/react@^19.2.3/"
   }
 }
 </script>
 </head>
 <body class="bg-slate-50 text-slate-900 selection:bg-emerald-100 selection:text-emerald-900">
     <div id="root"></div>
-    <!-- index.tsx 진입점을 명시적으로 로드합니다. -->
-    <script type="module" src="index.tsx"></script>
+    <script type="module" src="./index.tsx"></script>
 </body>
 </html>
