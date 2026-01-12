@@ -43,7 +43,7 @@
 </head>
 <body class="bg-slate-50 text-slate-900 selection:bg-emerald-100 selection:text-emerald-900">
     <div id="root"></div>
-    <!-- ./를 제거하고 직접 index.tsx를 참조하여 모듈 로딩 신뢰도를 높임 -->
-    <script type="module" src="index.tsx"></script>
+    <!-- 브라우저에서 .tsx를 직접 실행할 수 없으므로 esm.sh의 run 스크립트를 사용하여 실시간 변환을 수행합니다. -->
+    <script type="module" src="https://esm.sh/run"></script>
 </body>
 </html>
