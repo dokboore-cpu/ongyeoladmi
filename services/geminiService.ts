@@ -1,11 +1,13 @@
 
 import { GoogleGenAI } from "@google/genai";
 
-// Fix: Initialize GoogleGenAI using process.env.API_KEY directly as required by the SDK guidelines
+// Fix: Always use process.env.API_KEY as per Google GenAI SDK guidelines.
+// This also resolves the 'Property env does not exist on type ImportMeta' error in Vite.
 const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
 
 export const getLegalAdvice = async (prompt: string) => {
   try {
+    // Fix: Using the recommended gemini-3-flash-preview model and following correct generateContent parameters.
     const response = await ai.models.generateContent({
       model: 'gemini-3-flash-preview',
       contents: prompt,
@@ -21,7 +23,7 @@ export const getLegalAdvice = async (prompt: string) => {
       },
     });
 
-    // The .text property directly returns the generated string
+    // Fix: Extracting text output directly from the .text property of the response.
     return response.text;
   } catch (error) {
     console.error("Gemini API Error:", error);
