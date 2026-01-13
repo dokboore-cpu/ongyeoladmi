@@ -4,11 +4,14 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  // 배포 환경에서 자산을 찾지 못하는 문제를 해결하기 위해 상대 경로 설정 추가
-  base: './',
+  // Netlify 루트 배포를 위해 절대 경로인 '/' 권장
+  base: '/',
   build: {
     outDir: 'dist',
-    // 빌드 시 폴더를 깨끗하게 비우고 생성
     emptyOutDir: true,
+  },
+  // SDK 가이드라인의 process.env.API_KEY를 브라우저에서 사용할 수 있도록 shim 설정
+  define: {
+    'process.env.API_KEY': JSON.stringify(process.env.API_KEY),
   }
 });
