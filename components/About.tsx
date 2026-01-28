@@ -2,7 +2,7 @@
 import React from 'react';
 
 const About: React.FC = () => {
-  const NAVER_MAP_URL = "https://map.naver.com/v5/search/%EB%B6%80%EC%82%B0%EA%B0%91%EC%97%AD%EC%8B%9C%20%EC%82%AC%EC%83%81%EA%B5%AC%20%EA%B4%91%EC%9E%A5%EB%A1%9C37%EB%B2%88%EA%B8%B8%2066";
+  const NAVER_MAP_URL = "https://map.naver.com/v5/search/%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%20%EC%82%AC%EC%83%81%EA%B5%AC%20%EA%B4%91%EC%9E%A5%EB%A1%9C37%EB%B2%88%EA%B8%B8%2066";
 
   return (
     <section id="about" className="py-32 bg-slate-50">
