@@ -317,7 +317,7 @@ const Services: React.FC = () => {
                   
                   <div className="p-8 border border-slate-200 rounded-3xl text-center">
                     <p className="text-slate-500 text-sm mb-4">대표 행정사 직통 상담</p>
-                    <p className="text-2xl font-black text-slate-900 mb-2">010.9961.0700</p>
+                    <p className="text-2xl font-black text-slate-900 mb-2">010.8114.4300</p>
                     <p className="text-xs text-slate-400">평일 09:00 - 18:00 (주말 예약 상담 가능)</p>
                   </div>
                 </div>

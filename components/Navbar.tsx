@@ -49,8 +49,8 @@ const Navbar: React.FC = () => {
         </div>
 
         <div className="flex items-center gap-4">
-          <a href="tel:010-9961-0700" className="hidden lg:block text-white text-sm font-semibold">
-            010.9961.0700
+          <a href="tel:010-8114-4300" className="hidden lg:block text-white text-sm font-semibold">
+            010.8114.4300
           </a>
           <a href="#contact" onClick={(e) => scrollToSection(e, 'contact')} className="bg-emerald-600 hover:bg-emerald-500 text-white text-sm font-semibold px-6 py-2.5 rounded-full transition-all shadow-lg shadow-emerald-900/20">
             상담 예약

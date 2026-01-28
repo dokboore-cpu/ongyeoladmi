@@ -67,7 +67,7 @@ const Process: React.FC = () => {
           </div>
           
           <a 
-            href="https://pf.kakao.com/_hbconsult" 
+            href="http://pf.kakao.com/_HeShX" 
             target="_blank" 
             rel="noopener noreferrer"
             className="bg-[#FEE500] text-[#191919] px-10 py-5 rounded-2xl font-black text-lg hover:bg-[#FADB00] transition-all shadow-xl shadow-yellow-900/20 flex items-center justify-center gap-3 group"

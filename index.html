@@ -13,19 +13,18 @@
 <script type="importmap">
 {
   "imports": {
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
     "react/": "https://esm.sh/react@^19.2.3/",
     "react": "https://esm.sh/react@^19.2.3",
-    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
     "@google/genai": "https://esm.sh/@google/genai@^1.35.0",
-    "vite": "https://esm.sh/vite@^7.3.1",
-    "@vitejs/plugin-react": "https://esm.sh/@vitejs/plugin-react@^5.1.2"
+    "@vitejs/plugin-react": "https://esm.sh/@vitejs/plugin-react@^5.1.2",
+    "vite": "https://esm.sh/vite@^7.3.1"
   }
 }
 </script>
 </head>
 <body class="bg-slate-50 text-slate-900 selection:bg-emerald-100 selection:text-emerald-900">
     <div id="root"></div>
-    <!-- Vite 표준 엔트리 포인트 설정: 절대 경로(/) 대신 상대 경로(./) 사용 -->
     <script type="module" src="./index.tsx"></script>
 </body>
 </html>

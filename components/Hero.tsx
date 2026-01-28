@@ -33,11 +33,11 @@ const Hero: React.FC = () => {
           
           <div className="flex flex-col sm:flex-row gap-4 mb-12">
             <a 
-              href="tel:010-9961-0700" 
+              href="tel:010-8114-4300" 
               className="bg-emerald-600 hover:bg-emerald-500 text-white px-8 py-4 rounded-xl font-bold text-lg transition-all flex items-center justify-center gap-3 group shadow-xl shadow-emerald-900/30"
             >
               <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-              010-9961-0700 상담예약
+              010-8114-4300 상담예약
             </a>
             <button 
               onClick={() => document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' })}
@@ -75,8 +75,8 @@ const Hero: React.FC = () => {
             <div className="absolute bottom-8 left-8 right-8 glass-morphism p-6 rounded-2xl border border-white/20 shadow-2xl transform transition-all group-hover:-translate-y-2">
               <p className="text-emerald-400 text-xs font-bold uppercase tracking-widest mb-1">Expert Service</p>
               <h4 className="text-white text-sm font-medium mb-2 opacity-80">대표 행정사 직통 번호</h4>
-              <a href="tel:010-9961-0700" className="text-white text-3xl font-black tracking-tight flex items-center gap-3 hover:text-emerald-400 transition-colors">
-                010-9961-0700
+              <a href="tel:010-8114-4300" className="text-white text-3xl font-black tracking-tight flex items-center gap-3 hover:text-emerald-400 transition-colors">
+                010-8114-4300
                 <div className="w-8 h-8 rounded-full bg-emerald-600 flex items-center justify-center animate-pulse">
                   <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2a1 1 0 011.11-.27c1.12.45 2.33.69 3.58.69a1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1c0 1.25.24 2.46.69 3.58a1 1 0 01-.27 1.11l-2.2 2.2z" /></svg>
                 </div>
