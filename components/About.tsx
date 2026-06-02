@@ -61,7 +61,7 @@ const About: React.FC = () => {
                   <h5 className="font-bold text-slate-900">상담 오시는 길</h5>
                </div>
                <p className="text-sm text-slate-500 leading-relaxed">
-                  부산광역시 사상구 광장로37번길 66 <br />
+                  부산 강서구 명지국제7로 133 <br />
                   <span className="text-emerald-600 font-semibold mt-1 inline-block">사상역 5번 출구 도보 5분</span>
                </p>
             </div>
