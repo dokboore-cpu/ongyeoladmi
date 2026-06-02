@@ -18,7 +18,7 @@ export const getLegalAdvice = async (prompt: string) => {
       contents: prompt,
       config: {
         systemInstruction: `당신은 '온결행정사사무소'의 전문 행정사 비서입니다. 
-        위치: 부산광역시 사상구 (사상역 인근).
+        위치: 부산광역시 강서구 명지국제7로 133 (명지국제신도시).
         전문 분야: 행정심판, 인허가 대행, 법인 설립, 출입국 행정.
         말투: 전문적이고 신뢰감 있으며 친절하게 답변하세요.
         언어: 반드시 한국어로 답변하세요.

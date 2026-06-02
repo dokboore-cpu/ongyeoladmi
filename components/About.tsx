@@ -2,7 +2,7 @@
 import React from 'react';
 
 const About: React.FC = () => {
-  const NAVER_MAP_URL = "https://map.naver.com/v5/search/%EB%B6%80%EC%82%B0%EA%B4%91%EC%97%AD%EC%8B%9C%20%EC%82%AC%EC%83%81%EA%B5%AC%20%EA%B4%91%EC%9E%A5%EB%A1%9C37%EB%B2%88%EA%B8%B8%2066";
+  const NAVER_MAP_URL = "https://map.naver.com/v5/search/%EB%B6%80%EC%82%B0%20%EA%B0%95%EC%84%9C%EA%B5%AC%20%EB%AA%85%EC%A7%80%EA%B5%AD%EC%A0%9C7%EB%A1%9C%20133";
 
   return (
     <section id="about" className="py-32 bg-slate-50">
@@ -61,8 +61,8 @@ const About: React.FC = () => {
                   <h5 className="font-bold text-slate-900">상담 오시는 길</h5>
                </div>
                <p className="text-sm text-slate-500 leading-relaxed">
-                  부산 강서구 명지국제7로 133 <br />
-                  <span className="text-emerald-600 font-semibold mt-1 inline-block">사상역 5번 출구 도보 5분</span>
+                  부산광역시 강서구 명지국제7로 133 <br />
+                  <span className="text-emerald-600 font-semibold mt-1 inline-block">명지국제신도시</span>
                </p>
             </div>
           </div>
